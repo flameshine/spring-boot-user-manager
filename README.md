@@ -5,7 +5,7 @@
   <li><h2>Structure</h2>
     <ul>
       <li>Model: Jpa entinites and database interactions.</li>
-      <li>View: HTML pages</li>
+      <li>View: HTML pages.</li>
       <li>Controller: Spring MVC controller.</li>
     </ul>
 <li><h2>View</h2>
