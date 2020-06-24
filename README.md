@@ -15,6 +15,7 @@ The user gets to the home page, where is the list of users and all tools for int
 <ul>
 <li>Java + HTML</li>
 <li>Spring Boot</li>
+<li>Spring MVC</li>
 <li>JPA</li>
 <li>MySQL</li>
 <li>Maven</li>
