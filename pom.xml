@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>flameshine</groupId>
+    <groupId>com.flameshine</groupId>
     <artifactId>spring-boot-user-manager</artifactId>
     <version>1.0.0</version>
     <name>spring-boot-user-manager</name>

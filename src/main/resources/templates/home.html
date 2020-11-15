@@ -9,18 +9,25 @@
 <body>
 
 <div th:switch="${users}">
+
     <h2 th:case="null">No users found!</h2>
+
     <div th:case="*">
+
         <h2>Users</h2>
+
         <table>
             <thead>
+
             <tr>
                 <th>Id</th>
                 <th>Name</th>
                 <th>Phone</th>
             </tr>
+
             </thead>
             <tbody>
+
             <tr th:each="user : ${users}">
                 <td th:text="${user.id}"></td>
                 <td th:text="${user.name}"></td>
@@ -28,6 +35,7 @@
                 <td><a th:href="@{update/{id}(id=${user.id})}">Update</a></td>
                 <td><a th:href="@{delete/{id}(id=${user.id})}">Delete</a></td>
             </tr>
+
             </tbody>
         </table>
     </div>

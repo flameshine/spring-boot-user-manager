@@ -1,11 +1,13 @@
-package app.services;
+package com.flameshine.app.service.implementation;
 
+import com.flameshine.app.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
-import app.repositories.UserRepository;
-import app.models.User;
+
+import com.flameshine.app.repository.UserRepository;
+import com.flameshine.app.model.User;
 
 @Service
 public class UserServiceImplementation implements UserService {

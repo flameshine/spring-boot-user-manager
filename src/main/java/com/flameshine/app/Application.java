@@ -1,4 +1,4 @@
-package app;
+package com.flameshine.app;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.SpringApplication;

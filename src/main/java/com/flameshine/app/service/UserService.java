@@ -1,7 +1,8 @@
-package app.services;
+package com.flameshine.app.service;
 
 import java.util.List;
-import app.models.User;
+
+import com.flameshine.app.model.User;
 
 public interface UserService {
 
