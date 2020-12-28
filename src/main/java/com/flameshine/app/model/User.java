@@ -1,6 +1,7 @@
 package com.flameshine.app.model;
 
 import javax.persistence.*;
+
 import lombok.Data;
 
 @Entity

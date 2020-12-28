@@ -1,11 +1,12 @@
 package com.flameshine.app.service.implementation;
 
-import com.flameshine.app.service.UserService;
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
-import java.util.List;
 
+import com.flameshine.app.service.UserService;
 import com.flameshine.app.repository.UserRepository;
 import com.flameshine.app.model.User;
 
