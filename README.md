@@ -1,5 +1,5 @@
 # spring-boot-user-manager
-<h3>Spring Boot CRUD project that allows to manage users in database. The user can create, update and delete users in database.</h3>
+<h3>Spring Boot CRUD project that allows to manage users in database. The user can create, update and delete them.</h3>
 <h2>Overview:</h2>
 <ul>
   <li><h2>Structure</h2>
